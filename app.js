@@ -35,6 +35,7 @@ function verificarIntento() {
     return;
   } else {
     asignarTextoElemento("p", "Llegaste al numero máximo de intentos");
+    document.querySelector("#reiniciar").removeAttribute("disabled");
   }
 }
 
